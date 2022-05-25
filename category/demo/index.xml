@@ -5,12 +5,33 @@
     <link>https://dakhusainova.github.io/category/demo/</link>
       <atom:link href="https://dakhusainova.github.io/category/demo/index.xml" rel="self" type="application/rss+xml" />
     <description>Demo</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 12 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dakhusainova.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Demo</title>
       <link>https://dakhusainova.github.io/category/demo/</link>
     </image>
+    
+    <item>
+      <title>Scientific programming</title>
+      <link>https://dakhusainova.github.io/post/programming5st/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://dakhusainova.github.io/post/programming5st/</guid>
+      <description>&lt;h2 id=&#34;scientific-programming&#34;&gt;Scientific programming&lt;/h2&gt;
+&lt;p&gt;Science in programming — the past or reality? How much of it is in languages and why are there holivars about the advantages of some languages over others? If you are interested, I ask under the cat.&lt;/p&gt;
+&lt;p&gt;For a long time there have been &amp;ldquo;holy wars&amp;rdquo; in which various approaches in writing programs and in programming itself are discussed and criticized, mainly Object-Oriented Programming is criticized (one, two, three).&lt;/p&gt;
+&lt;p&gt;Egor Bugayenko criticizes the PLO on practical examples (one, two, video), using the ideas of David West and, as I understood, recently went towards theory. The effectiveness of these disputes tends to zero. Why? Because all these disputes are already being conducted on the basis of the realizations of some thoughts, practices and opinions of individuals, and not on the basis of theoretical works. The scientific method and approach with its theories, hypotheses, axioms, experiments, proofs and facts in recent years in these disputes and &amp;ldquo;wars&amp;rdquo; there is no word at all!&lt;/p&gt;
+&lt;p&gt;In mathematics, as in any other science, any theorems and theories require proof. As an example: The Pythagorean Theorem. Theory comes first, followed by practice. In programming, this approach has not been followed for several decades. Everything has been replaced by dogmas and the opinions of individuals, who are sometimes called &amp;ldquo;evangelists&amp;rdquo; or &amp;ldquo;prophets&amp;rdquo;. With their verbiage, they promote only the ideas they need to the masses, without caring about theory or evidence (Look at conferences and presentations on IT). Where is science here, and where is religion? And are we not slipping into obscurantism and faith in words written long ago and not requiring proof? Have you heard about the flat Earth supporters? Does it remind you of anything in terms of approaches to persuasion and stubbornness?&lt;/p&gt;
+&lt;p&gt;And for the last 30-40 years, programmers, blinded by religious beliefs from the preachers of PLO or OP, have been building abstractions on top of other abstractions, new languages on top of other languages, new frameworks and libraries on top of old ones. And why was all this necessary? For the sake of simplification and productivity of their work on writing programs. Only this path led to a dead end. Because instead of simplification, we got complication and now we are studying not algorithms, but APIs and documentation for another fashionable framework, and maybe several. Now they began to look for bugs not only in their own code, but also in someone else&amp;rsquo;s. Debugging code has to be done through tons of proxies, architecture patterns and design patterns, helpers, frameworks and libraries. And, as research shows, there is no gain in the speed of writing code from the use of OOP at all.&lt;/p&gt;
+&lt;p&gt;A little history. How did it all start? First there was procedural programming, then structural programming, and then imperative programming came on the scene. Some people thought of introducing the concept of an object — this is how object-oriented programming was born. And at that moment there was a sharp turn that turned the entire industry into the state in which we are now.&lt;/p&gt;
+&lt;p&gt;The introduction of the object had to be theoretically justified. But that didn&amp;rsquo;t happen. Instead, each language introduced the concept of an object in its own way. And each developer of the language interpreted the postulates of the OOP to his taste and color. Particularly stubborn fundamentalists came up with Functional Programming based on mathematics, lists and higher-order functions. It sounds serious and even a little scientifically justified, because mathematics is a necessary and useful thing, but what does lists and functions have to do with the real world?&lt;/p&gt;
+&lt;p&gt;What tasks does pure OP solve without using states and is there an optimal, convenient and correct way on the part of a person — that&amp;rsquo;s the question you need to ask the &amp;ldquo;prophets&amp;rdquo; of OP. And it is asked (one, two).&lt;/p&gt;
+&lt;p&gt;Functional language developers have started to apply some paradigms from OOP in order to move out of the field of applied mathematics problems into the field of real-world problems. In response,
+some OOP languages have implemented paradigms from the OP. And &amp;ldquo;Horses and people mixed up in a bunch&amp;rdquo; (c)&lt;/p&gt;
+&lt;p&gt;As a result, the implementation of pure paradigms of OOP and OP in current languages is like in a song — &amp;ldquo;I made it out of what was, and what was, and I fell in love&amp;rdquo;! And it turns out that without theoretical work and scientific basis, all these languages are just a figment of the fantasies and desires of their developers. And there are more than a hundred such languages! And it shouldn&amp;rsquo;t be like this! Ideally, there should be only 2 low-level languages and 3-4 high-level ones built on their basis.&lt;/p&gt;
+&lt;p&gt;I can assume that when they introduced the concept of an object, they took as a basis what they saw around them — humans and animals. And this was the main mistake that would later grow to a huge size! Thus, inheritance may have appeared (ancestor-descendant and the relationship between them is explained by inheritance, but what about other objects in the world? And what does the very definition of the word &amp;ldquo;inheritance&amp;rdquo; mean in the real world? Blood and DNA? Nitrogenous bases?). How do the other terms, namely abstraction, encapsulation and polymorphism, relate specifically to OOP? And somehow they didn&amp;rsquo;t bother to provide evidence of such a connection. After all, you can write anything and it sounds logical, but the problem is that the arguments given have nothing to do with OOP. After all, a logical mistake was made in the OOP — (incomplete induction) a transition was made from one particular case to the entire general set. To show this, I will give an example — if it is possible to take only living beings with inheritance as a basis, then why, following the same logic, not take a planet or an entire galaxy as a basis? After all, a planet or galaxy is also the heir of other objects from outer space and has a state and some kind of behavior. Or imagine all mountains as objects without inheritance and practically without behavior.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How to make a presentation</title>
@@ -72,6 +93,16 @@ Think ‘bite-size’ information. We called ourselves Biteable a reason: studie
       <guid>https://dakhusainova.github.io/post/last-week/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Friends, last week was terribly difficult for me. I spent it doing laboratory work and the first stage of an individual project. Fortunately, I passed everything on time and did not forget anything, and this has happened to me more than once.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Last week 5</title>
+      <link>https://dakhusainova.github.io/post/last-weekst5/</link>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://dakhusainova.github.io/post/last-weekst5/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Last week I finally wrote a chapter of my book that I can&amp;rsquo;t finish. I need motivation for this, so I watched a lot of videos on Youtube, which I would rather not watch, because there is so much misinformation about what is happening in the world.&lt;/p&gt;
 </description>
     </item>
     
