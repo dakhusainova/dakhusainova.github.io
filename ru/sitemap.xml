@@ -84,16 +84,6 @@
       href="https://dakhusainova.github.io/ru/tag/education/"
     /></url>
   <url>
-    <loc></loc><lastmod>2022-05-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href=""
-    /></url>
-  <url>
     <loc>https://dakhusainova.github.io/ru/post/</loc><lastmod>2022-05-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
@@ -122,6 +112,16 @@
       rel="alternate"
       hreflang="ru"
       href="https://dakhusainova.github.io/ru/tags/"
+    /></url>
+  <url>
+    <loc></loc><lastmod>2022-05-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href=""
     /></url>
   <url>
     <loc>https://dakhusainova.github.io/ru/post/presentationmake/</loc><lastmod>2022-05-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
