@@ -33,6 +33,37 @@
     </item>
     
     <item>
+      <title>Last week 6</title>
+      <link>https://dakhusainova.github.io/post/last-week6/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://dakhusainova.github.io/post/last-week6/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Absolutely nothing supernatural happened last week. A normal week of study, and then a return to text games. A wonderful life.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Programming language С# in game development</title>
+      <link>https://dakhusainova.github.io/post/topic/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://dakhusainova.github.io/post/topic/</guid>
+      <description>&lt;h2 id=&#34;c-programming-language&#34;&gt;C# programming language&lt;/h2&gt;
+&lt;p&gt;Unity uses the productive C# programming language. Thanks to C# and Mono – cross - platform implementation .NET, Unity-projects can be assembled and run equally stably on different operating systems.&lt;/p&gt;
+&lt;p&gt;In the future, you will need to learn the language in full, but the following set of topics will do for a start:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;basic constructions;
+objects, types, and references;
+enumerations and collections;
+object-oriented programming;
+exception handling.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you plan to create network games, it is highly desirable to know ASP MVC, a framework for creating web applications that simplifies networking and working with databases.&lt;/p&gt;
+&lt;p&gt;A requirement common to all programmers is knowledge of algorithms and data structures. This knowledge will not become obsolete, no matter what programming language you use and for what operating system you develop.&lt;/p&gt;
+&lt;p&gt;In addition to the programming language and algorithms, design patterns are mandatory for studying – thoughtful architectural solutions used by programmers. It is necessary to understand well how and in what situation to use this or that template.&lt;/p&gt;
+&lt;p&gt;Most of the training and reference materials are written in English, and therefore we advise you to master the language at least at the Intermediate level. Knowledge of English is not a specific requirement for Unity programmers, but a standard requirement for IT.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Scientific programming</title>
       <link>https://dakhusainova.github.io/post/programming5st/</link>
       <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>

@@ -34,7 +34,7 @@
       href="https://dakhusainova.github.io/ru/"
     /></url>
   <url>
-    <loc></loc><lastmod>2022-05-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc></loc><lastmod>2022-06-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href=""
@@ -44,7 +44,7 @@
       href=""
     /></url>
   <url>
-    <loc>https://dakhusainova.github.io/ru/tag/academic/</loc><lastmod>2022-05-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dakhusainova.github.io/ru/tag/academic/</loc><lastmod>2022-06-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://dakhusainova.github.io/tag/academic/"
@@ -54,7 +54,7 @@
       href="https://dakhusainova.github.io/ru/tag/academic/"
     /></url>
   <url>
-    <loc>https://dakhusainova.github.io/ru/categories/</loc><lastmod>2022-05-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dakhusainova.github.io/ru/categories/</loc><lastmod>2022-06-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://dakhusainova.github.io/categories/"
@@ -64,7 +64,7 @@
       href="https://dakhusainova.github.io/ru/categories/"
     /></url>
   <url>
-    <loc>https://dakhusainova.github.io/ru/category/demo/</loc><lastmod>2022-05-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dakhusainova.github.io/ru/category/demo/</loc><lastmod>2022-06-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://dakhusainova.github.io/category/demo/"
@@ -74,7 +74,7 @@
       href="https://dakhusainova.github.io/ru/category/demo/"
     /></url>
   <url>
-    <loc>https://dakhusainova.github.io/ru/tag/education/</loc><lastmod>2022-05-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dakhusainova.github.io/ru/tag/education/</loc><lastmod>2022-06-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://dakhusainova.github.io/tag/education/"
@@ -84,7 +84,7 @@
       href="https://dakhusainova.github.io/ru/tag/education/"
     /></url>
   <url>
-    <loc>https://dakhusainova.github.io/ru/tags/</loc><lastmod>2022-05-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dakhusainova.github.io/ru/tags/</loc><lastmod>2022-06-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://dakhusainova.github.io/tags/"
@@ -92,6 +92,36 @@
       rel="alternate"
       hreflang="ru"
       href="https://dakhusainova.github.io/ru/tags/"
+    /></url>
+  <url>
+    <loc>https://dakhusainova.github.io/ru/post/</loc><lastmod>2022-06-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://dakhusainova.github.io/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://dakhusainova.github.io/ru/post/"
+    /></url>
+  <url>
+    <loc>https://dakhusainova.github.io/ru/post/last-week6/</loc><lastmod>2022-06-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://dakhusainova.github.io/post/last-week6/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://dakhusainova.github.io/ru/post/last-week6/"
+    /></url>
+  <url>
+    <loc></loc><lastmod>2022-06-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href=""
     /></url>
   <url>
     <loc>https://dakhusainova.github.io/ru/post/programming5st/</loc><lastmod>2022-05-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -104,24 +134,14 @@
       href="https://dakhusainova.github.io/ru/post/programming5st/"
     /></url>
   <url>
-    <loc>https://dakhusainova.github.io/ru/post/</loc><lastmod>2022-05-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://dakhusainova.github.io/ru/post/topic/</loc><lastmod>2022-05-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://dakhusainova.github.io/post/"
+      href="https://dakhusainova.github.io/post/topic/"
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://dakhusainova.github.io/ru/post/"
-    /></url>
-  <url>
-    <loc></loc><lastmod>2022-05-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href=""
+      href="https://dakhusainova.github.io/ru/post/topic/"
     /></url>
   <url>
     <loc>https://dakhusainova.github.io/ru/post/presentationmake/</loc><lastmod>2022-05-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
