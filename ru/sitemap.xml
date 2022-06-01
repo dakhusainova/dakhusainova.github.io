@@ -214,16 +214,6 @@
       href="https://dakhusainova.github.io/ru/slides/example/"
     /></url>
   <url>
-    <loc>https://dakhusainova.github.io/ru/project/project2/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://dakhusainova.github.io/project/project2/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://dakhusainova.github.io/ru/project/project2/"
-    /></url>
-  <url>
     <loc>https://dakhusainova.github.io/ru/tag/deep-learning/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
@@ -232,16 +222,6 @@
       rel="alternate"
       hreflang="ru"
       href="https://dakhusainova.github.io/ru/tag/deep-learning/"
-    /></url>
-  <url>
-    <loc>https://dakhusainova.github.io/ru/project/example/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://dakhusainova.github.io/project/example/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://dakhusainova.github.io/ru/project/example/"
     /></url>
   <url>
     <loc>https://dakhusainova.github.io/ru/project/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -262,6 +242,26 @@
       rel="alternate"
       hreflang="ru"
       href="https://dakhusainova.github.io/ru/project/project1/"
+    /></url>
+  <url>
+    <loc>https://dakhusainova.github.io/ru/project/project2/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://dakhusainova.github.io/project/project2/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://dakhusainova.github.io/ru/project/project2/"
+    /></url>
+  <url>
+    <loc>https://dakhusainova.github.io/ru/project/example/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://dakhusainova.github.io/project/example/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://dakhusainova.github.io/ru/project/example/"
     /></url>
   <url>
     <loc>https://dakhusainova.github.io/ru/publication-type/1/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
