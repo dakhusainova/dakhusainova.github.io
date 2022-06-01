@@ -13,134 +13,130 @@
     </image>
     
     <item>
-      <title>Scientific programming</title>
+      <title>Научное программирование</title>
       <link>https://dakhusainova.github.io/ru/post/programming5st/</link>
       <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dakhusainova.github.io/ru/post/programming5st/</guid>
-      <description>&lt;h2 id=&#34;scientific-programming&#34;&gt;Scientific programming&lt;/h2&gt;
-&lt;p&gt;Science in programming — the past or reality? How much of it is in languages and why are there holivars about the advantages of some languages over others? If you are interested, I ask under the cat.&lt;/p&gt;
-&lt;p&gt;For a long time there have been &amp;ldquo;holy wars&amp;rdquo; in which various approaches in writing programs and in programming itself are discussed and criticized, mainly Object-Oriented Programming is criticized (one, two, three).&lt;/p&gt;
-&lt;p&gt;Egor Bugayenko criticizes the PLO on practical examples (one, two, video), using the ideas of David West and, as I understood, recently went towards theory. The effectiveness of these disputes tends to zero. Why? Because all these disputes are already being conducted on the basis of the realizations of some thoughts, practices and opinions of individuals, and not on the basis of theoretical works. The scientific method and approach with its theories, hypotheses, axioms, experiments, proofs and facts in recent years in these disputes and &amp;ldquo;wars&amp;rdquo; there is no word at all!&lt;/p&gt;
-&lt;p&gt;In mathematics, as in any other science, any theorems and theories require proof. As an example: The Pythagorean Theorem. Theory comes first, followed by practice. In programming, this approach has not been followed for several decades. Everything has been replaced by dogmas and the opinions of individuals, who are sometimes called &amp;ldquo;evangelists&amp;rdquo; or &amp;ldquo;prophets&amp;rdquo;. With their verbiage, they promote only the ideas they need to the masses, without caring about theory or evidence (Look at conferences and presentations on IT). Where is science here, and where is religion? And are we not slipping into obscurantism and faith in words written long ago and not requiring proof? Have you heard about the flat Earth supporters? Does it remind you of anything in terms of approaches to persuasion and stubbornness?&lt;/p&gt;
-&lt;p&gt;And for the last 30-40 years, programmers, blinded by religious beliefs from the preachers of PLO or OP, have been building abstractions on top of other abstractions, new languages on top of other languages, new frameworks and libraries on top of old ones. And why was all this necessary? For the sake of simplification and productivity of their work on writing programs. Only this path led to a dead end. Because instead of simplification, we got complication and now we are studying not algorithms, but APIs and documentation for another fashionable framework, and maybe several. Now they began to look for bugs not only in their own code, but also in someone else&amp;rsquo;s. Debugging code has to be done through tons of proxies, architecture patterns and design patterns, helpers, frameworks and libraries. And, as research shows, there is no gain in the speed of writing code from the use of OOP at all.&lt;/p&gt;
-&lt;p&gt;A little history. How did it all start? First there was procedural programming, then structural programming, and then imperative programming came on the scene. Some people thought of introducing the concept of an object — this is how object-oriented programming was born. And at that moment there was a sharp turn that turned the entire industry into the state in which we are now.&lt;/p&gt;
-&lt;p&gt;The introduction of the object had to be theoretically justified. But that didn&amp;rsquo;t happen. Instead, each language introduced the concept of an object in its own way. And each developer of the language interpreted the postulates of the OOP to his taste and color. Particularly stubborn fundamentalists came up with Functional Programming based on mathematics, lists and higher-order functions. It sounds serious and even a little scientifically justified, because mathematics is a necessary and useful thing, but what does lists and functions have to do with the real world?&lt;/p&gt;
-&lt;p&gt;What tasks does pure OP solve without using states and is there an optimal, convenient and correct way on the part of a person — that&amp;rsquo;s the question you need to ask the &amp;ldquo;prophets&amp;rdquo; of OP. And it is asked (one, two).&lt;/p&gt;
-&lt;p&gt;Functional language developers have started to apply some paradigms from OOP in order to move out of the field of applied mathematics problems into the field of real-world problems. In response,
-some OOP languages have implemented paradigms from the OP. And &amp;ldquo;Horses and people mixed up in a bunch&amp;rdquo; (c)&lt;/p&gt;
-&lt;p&gt;As a result, the implementation of pure paradigms of OOP and OP in current languages is like in a song — &amp;ldquo;I made it out of what was, and what was, and I fell in love&amp;rdquo;! And it turns out that without theoretical work and scientific basis, all these languages are just a figment of the fantasies and desires of their developers. And there are more than a hundred such languages! And it shouldn&amp;rsquo;t be like this! Ideally, there should be only 2 low-level languages and 3-4 high-level ones built on their basis.&lt;/p&gt;
-&lt;p&gt;I can assume that when they introduced the concept of an object, they took as a basis what they saw around them — humans and animals. And this was the main mistake that would later grow to a huge size! Thus, inheritance may have appeared (ancestor-descendant and the relationship between them is explained by inheritance, but what about other objects in the world? And what does the very definition of the word &amp;ldquo;inheritance&amp;rdquo; mean in the real world? Blood and DNA? Nitrogenous bases?). How do the other terms, namely abstraction, encapsulation and polymorphism, relate specifically to OOP? And somehow they didn&amp;rsquo;t bother to provide evidence of such a connection. After all, you can write anything and it sounds logical, but the problem is that the arguments given have nothing to do with OOP. After all, a logical mistake was made in the OOP — (incomplete induction) a transition was made from one particular case to the entire general set. To show this, I will give an example — if it is possible to take only living beings with inheritance as a basis, then why, following the same logic, not take a planet or an entire galaxy as a basis? After all, a planet or galaxy is also the heir of other objects from outer space and has a state and some kind of behavior. Or imagine all mountains as objects without inheritance and practically without behavior.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;научное-программирование&#34;&gt;Научное программирование&lt;/h2&gt;
+&lt;p&gt;Наука в программировании — прошлое или реальность? Сколько всего этого в языках и почему существуют холивары о преимуществах одних языков перед другими? Если вам интересно, я спрашиваю под кат.&lt;/p&gt;
+&lt;p&gt;Уже давно идут &amp;ldquo;священные войны&amp;rdquo;, в которых обсуждаются и критикуются различные подходы в написании программ и в самом программировании, в основном критикуется объектно-ориентированное программирование (раз, два, три).&lt;/p&gt;
+&lt;p&gt;Егор Бугаенко критикует ООП на практических примерах (один, два, видео), используя идеи Дэвида Уэста и, как я понял, недавно перешел к теории. Эффективность этих споров стремится к нулю. Почему? Потому что все эти споры уже ведутся на основе реализации каких-то мыслей, практик и мнений отдельных людей, а не на основе теоретических работ. О научном методе и подходе с его теориями, гипотезами, аксиомами, экспериментами, доказательствами и фактами в последние годы в этих спорах и &amp;ldquo;войнах&amp;rdquo; вообще нет ни слова!&lt;/p&gt;
+&lt;p&gt;В математике, как и в любой другой науке, любые теоремы и теории требуют доказательств. В качестве примера: Теорема Пифагора. На первом месте теория, за ней следует практика. В программировании этому подходу не следовали уже несколько десятилетий. Все было заменено догмами и мнениями отдельных людей, которых иногда называют &amp;ldquo;евангелистами&amp;rdquo; или &amp;ldquo;пророками&amp;rdquo;. Своим словоблудием они продвигают в массы только те идеи, которые им нужны, не заботясь о теории или доказательствах (посмотрите на конференции и презентации по этому поводу). Где здесь наука, а где религия? И не скатываемся ли мы в мракобесие и веру в слова, написанные давно и не требующие доказательств? Вы слышали о сторонниках плоской Земли? Напоминает ли это вам что-нибудь с точки зрения подходов к убеждению и упрямству?&lt;/p&gt;
+&lt;p&gt;И в течение последних 30-40 лет программисты, ослепленные религиозными убеждениями проповедников ООП или ОП, создавали абстракции поверх других абстракций, новые языки поверх других языков, новые фреймворки и библиотеки поверх старых. И зачем все это было нужно? Ради упрощения и повышения производительности их работы по написанию программ. Только этот путь вел в тупик. Потому что вместо упрощения мы получили усложнение, и теперь мы изучаем не алгоритмы, а API и документацию для другого модного фреймворка, а может быть, и нескольких. Теперь они начали искать ошибки не только в собственном коде, но и в чужом. Отладка кода должна выполняться с помощью множества прокси-серверов, шаблонов архитектуры и шаблонов проектирования, помощников, фреймворков и библиотек. И, как показывают исследования, использование ООП вообще не приводит к увеличению скорости написания кода.&lt;/p&gt;
+&lt;p&gt;Немного истории. Как все это началось? Сначала появилось процедурное программирование, затем структурное программирование, а затем на сцену вышло императивное программирование. Некоторые люди подумали о том, чтобы ввести понятие объекта — так родилось объектно-ориентированное программирование. И в этот момент произошел резкий поворот, который привел всю отрасль в то состояние, в котором мы сейчас находимся.&lt;/p&gt;
+&lt;p&gt;Введение объекта должно было быть теоретически обосновано. Но этого не произошло. Вместо этого каждый язык вводил понятие объекта по-своему. И каждый разработчик языка интерпретировал постулаты ООП на свой вкус и цвет. Особо упрямые фундаменталисты придумали Функциональное программирование, основанное на математике, списках и функциях более высокого порядка. Это звучит серьезно и даже немного научно обосновано, потому что математика - вещь необходимая и полезная, но какое отношение списки и функции имеют к реальному миру?&lt;/p&gt;
+&lt;p&gt;Какие задачи решает чистый ОП без использования состояний и есть ли оптимальный, удобный и правильный способ со стороны человека — вот вопрос, который нужно задать &amp;ldquo;пророкам&amp;rdquo; ОП. И его спрашивают (раз, два).&lt;/p&gt;
+&lt;p&gt;Разработчики функциональных языков начали применять некоторые парадигмы из ООП, чтобы перейти из области прикладных математических задач в область реальных проблем. В ответ
+на это некоторые языки ООП внедрили парадигмы из OP. И &amp;ldquo;Лошади и люди смешались в кучу&amp;rdquo; (с)&lt;/p&gt;
+&lt;p&gt;В результате реализация чистых парадигм ООП и ОП на современных языках похожа на песню — &amp;ldquo;Я сделал это из того, что было, и из того, что было, и я влюбился&amp;rdquo;! И получается, что без теоретической работы и научной основы все эти языки - всего лишь плод фантазий и желаний их разработчиков. И таких языков существует более сотни! И так не должно быть! В идеале должно быть всего 2 языка низкого уровня и 3-4 языка высокого уровня, построенных на их основе.&lt;/p&gt;
+&lt;p&gt;Я могу предположить, что когда они вводили понятие объекта, они брали за основу то, что видели вокруг себя — людей и животных. И это было главной ошибкой, которая впоследствии разрослась до огромных размеров! Таким образом, возможно, появилось наследование (предок-потомок и связь между ними объясняются наследованием, но как насчет других объектов в мире? И что означает само определение слова &amp;ldquo;наследование&amp;rdquo; в реальном мире? Кровь и ДНК? Азотистые основания?). Как другие термины, а именно абстракция, инкапсуляция и полиморфизм, относятся конкретно к ООП? И почему-то они не потрудились предоставить доказательства такой связи. В конце концов, вы можете написать что угодно, и это звучит логично, но проблема в том, что приведенные аргументы не имеют ничего общего с ООП. Ведь в ООП была допущена логическая ошибка — (неполная индукция) был осуществлен переход от одного частного случая ко всему общему множеству. Чтобы показать это, я приведу пример — если за основу можно взять только живые существа с наследственностью, то почему бы, следуя той же логике, не взять за основу планету или целую галактику? В конце концов, планета или галактика также являются наследниками других объектов из космоса и имеют состояние и какое-то поведение. Или представьте себе все горы как объекты без наследования и практически без поведения.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>How to make a presentation</title>
+      <title>Как создавать презентацию</title>
       <link>https://dakhusainova.github.io/ru/post/presentationmake/</link>
       <pubDate>Thu, 12 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dakhusainova.github.io/ru/post/presentationmake/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Making a good presentation starts with crafting the content. No matter how compelling your message is, if you don’t get it out of your brain and on to the screen in a simple way, you’ll be met with a sea of blank faces. So, where to begin?&lt;/p&gt;
-&lt;p&gt;Create an easy-to-follow structure&lt;/p&gt;
-&lt;p&gt;When it comes to what you have to say, break it down into three simple sections: your presentation needs an introduction, body, and conclusion.&lt;/p&gt;
-&lt;p&gt;A compelling introduction. Your introduction needs to briefly sum up what you’re going to talk about and why it’s useful or relevant to your audience.
-Offer a body of evidence. The body of your presentation is where you hit ’em with the facts, quotes, and evidence to back up your main points.
-Sum up with key takeaways. The conclusion is where you loop back to your original statement and give the audience some key takeaways on how they can put into practice what they’ve learned.
-No more than 10 slides in total. Who wants to sit through pages and pages of slides? No one, that’s who. By keeping your slide deck to 10 slides, even if your presentation is 30 minutes long, you’ll give the audience a chance to digest the on-screen messages in line with your talk. Using concept maps before structuring your slides can help keep to the point.
-Limit the amount of copy on each slide&lt;/p&gt;
-&lt;p&gt;Less really is more, especially when it comes to making a good presentation. Too much text and the audience will just be reading the screen instead of looking at you and feeling the emotional impact of your message.&lt;/p&gt;
-&lt;p&gt;No more than six words per slide. Marketing king Seth Godin says we should have just six words per slide – that’s not a lot of copy. Choose your words carefully and rewrite until you’ve got it just right.
-Think ‘bite-size’ information. We called ourselves Biteable a reason: studies have shown that information is retained better when it’s broken down into bite-sized chunks. Video is a great way to learn and research suggests it’s 95% more compelling than text.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;описание&#34;&gt;Описание&lt;/h2&gt;
+&lt;p&gt;Создание хорошей презентации начинается с создания контента. Каким бы убедительным ни было ваше сообщение, если вы не выбросите его из головы и не перенесете на экран простым способом, вас встретит море пустых лиц. Итак, с чего начать?&lt;/p&gt;
+&lt;p&gt;Создайте легкую для понимания структуру&lt;/p&gt;
+&lt;p&gt;Когда дело доходит до того, что вы хотите сказать, разбейте это на три простых раздела: ваша презентация нуждается во введении, основной части и заключении.&lt;/p&gt;
+&lt;p&gt;Убедительное вступление. В вашем вступлении должно быть кратко изложено то, о чем вы собираетесь говорить, и почему это полезно или актуально для вашей аудитории.
+Предложите множество доказательств. Основная часть вашей презентации - это то, где вы приводите факты, цитаты и доказательства, подтверждающие ваши основные тезисы.
+Подведите итог с ключевыми выводами. В заключение вы возвращаетесь к своему первоначальному утверждению и даете аудитории несколько ключевых советов о том, как они могут применить на практике то, чему они научились.
+Всего не более 10 слайдов. Кто хочет просиживать страницы и страницы слайдов? Никто, вот кто. Ограничивая количество слайдов 10 слайдами, даже если ваша презентация длится 30 минут, вы дадите аудитории возможность переварить сообщения на экране в соответствии с вашим выступлением. Использование концептуальных карт перед структурированием слайдов может помочь придерживаться сути.
+Ограничьте количество копий на каждом слайде&lt;/p&gt;
+&lt;p&gt;На самом деле меньше значит больше, особенно когда речь идет о создании хорошей презентации. Слишком много текста, и аудитория будет просто читать экран вместо того, чтобы смотреть на вас и чувствовать эмоциональное воздействие вашего сообщения.&lt;/p&gt;
+&lt;p&gt;Не более шести слов на слайд. Король маркетинга Сет Годин говорит, что на слайде должно быть всего шесть слов – это не так уж много текста. Тщательно подбирайте слова и переписывайте до тех пор, пока у вас не получится все правильно.
+Подумайте об информации &amp;ldquo;размером с укус&amp;rdquo;. Мы назвали себя Biteable не просто так: исследования показали, что информация сохраняется лучше, когда она разбита на небольшие кусочки. Видео - отличный способ обучения, и исследования показывают, что оно на 95% более убедительно, чем текст.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Last week 3</title>
+      <title>Прошедшая неделя 3</title>
       <link>https://dakhusainova.github.io/ru/post/last-week3/</link>
       <pubDate>Thu, 12 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dakhusainova.github.io/ru/post/last-week3/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Last week I was in Kazan, a wonderful city, because it is my hometown. And I suffered over laboratory work, watched video tutorials in German and just rested.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;описание&#34;&gt;Описание&lt;/h2&gt;
+&lt;p&gt;На прошлой неделе я была в Казани, замечательном городе, потому что это мой родной город. А я мучилась над лабораторными работами, смотрела видеоуроки на немецком языке и просто отдыхала.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Last week 9-12 May</title>
+      <title>Прошедшая неделя 9-12 мая</title>
       <link>https://dakhusainova.github.io/ru/post/last-week2/</link>
       <pubDate>Thu, 12 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dakhusainova.github.io/ru/post/last-week2/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;The best day this week was the first day, because it was Victory Day. My brother and I were watching parade on TV. After that, I went to Victory Park and went to the center of Kazan. At the end of the day we watched the fireworks in honor of the victory.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;описание&#34;&gt;Описание&lt;/h2&gt;
+&lt;p&gt;Лучшим днем на этой неделе был первый день, потому что это был День Победы. Мы с братом смотрели парад по телевизору. После этого я отправилась в парк Победы, а потом в центр Казани. В конце дня мы смотрели фейерверк в честь победы.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>What is Markdown?</title>
+      <title>Что такое Маркдаун?</title>
       <link>https://dakhusainova.github.io/ru/post/markdown/</link>
       <pubDate>Thu, 12 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dakhusainova.github.io/ru/post/markdown/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one of the world’s most popular markup languages.&lt;/p&gt;
-&lt;p&gt;Using Markdown is different than using a WYSIWYG editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown isn’t like that. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different.&lt;/p&gt;
-&lt;p&gt;You can add Markdown formatting elements to a plaintext file using a text editor application. Or you can use one of the many Markdown applications for macOS, Windows, Linux, iOS, and Android operating systems. There are also several web-based applications specifically designed for writing in Markdown.&lt;/p&gt;
-&lt;p&gt;Depending on the application you use, you may not be able to preview the formatted document in real time. But that’s okay. According to Gruber, Markdown syntax is designed to be readable and unobtrusive, so the text in Markdown files can be read even if it isn’t rendered.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;описание&#34;&gt;Описание&lt;/h2&gt;
+&lt;p&gt;Markdown - это облегченный язык разметки, который можно использовать для добавления элементов форматирования в текстовые документы открытого текста. Созданный Джоном Грубером в 2004 году, Markdown в настоящее время является одним из самых популярных языков разметки в мире.&lt;/p&gt;
+&lt;p&gt;Использование Markdown отличается от использования редактора WYSIWYG. В таком приложении, как Microsoft Word, вы нажимаете кнопки для форматирования слов и фраз, и изменения видны сразу. Уценка совсем не такая. Когда вы создаете файл в формате Markdown, вы добавляете синтаксис Markdown к тексту, чтобы указать, какие слова и фразы должны выглядеть по-другому.&lt;/p&gt;
+&lt;p&gt;Вы можете добавить элементы форматирования Markdown в текстовый файл с помощью приложения текстового редактора. Или вы можете использовать одно из многочисленных приложений Markdown для операционных систем macOS, Windows, Linux, iOS и Android. Существует также несколько веб-приложений, специально разработанных для записи в Markdown.&lt;/p&gt;
+&lt;p&gt;В зависимости от используемого приложения вы можете не иметь возможности просматривать отформатированный документ в режиме реального времени. Но это нормально. По словам Грубера, синтаксис Markdown разработан так, чтобы быть читаемым и ненавязчивым, поэтому текст в файлах Markdown можно прочитать, даже если он не отображается.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Last week</title>
+      <title>Прошедшая неделя</title>
       <link>https://dakhusainova.github.io/ru/post/last-week/</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dakhusainova.github.io/ru/post/last-week/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Friends, last week was terribly difficult for me. I spent it doing laboratory work and the first stage of an individual project. Fortunately, I passed everything on time and did not forget anything, and this has happened to me more than once.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;описание&#34;&gt;Описание&lt;/h2&gt;
+&lt;p&gt;Друзья, прошлая неделя была для меня ужасно трудной. Я потратила ее на лабораторную работу и первый этап индивидуального проекта. К счастью, я все сдала вовремя и ничего не забыла, и это будет случаться со мной еще не раз.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Last week 5</title>
+      <title>Прошедшая неделя 5</title>
       <link>https://dakhusainova.github.io/ru/post/last-weekst5/</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dakhusainova.github.io/ru/post/last-weekst5/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Last week I finally wrote a chapter of my book that I can&amp;rsquo;t finish. I need motivation for this, so I watched a lot of videos on Youtube, which I would rather not watch, because there is so much misinformation about what is happening in the world.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;описание&#34;&gt;Описание&lt;/h2&gt;
+&lt;p&gt;На прошлой неделе я наконец-то написала главу своей книги, которую не могу никак закончить. Мне нужна мотивация для этого, поэтому я посмотрела много видео на Youtube, которые я бы предпочла не смотреть, потому что там так много дезинформации о том, что происходит в мире.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Version control</title>
+      <title>Управление версиями</title>
       <link>https://dakhusainova.github.io/ru/post/version-control/</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dakhusainova.github.io/ru/post/version-control/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Version Control Systems (VCS) are used when several people work on one project. Usually, the main project tree is stored in a local
-or remote repository, to which access is configured for project participants. When
-making changes to the project content, the version control system allows
-you to fix them, combine changes made by different project participants,
-roll back to any earlier version of the project, if required.
-In classical version control systems, a centralized model is used,
-assuming a single repository for storing files. Most version control functions are performed by a special server.
-The project participant (user)
-receives the version of files he needs before starting work through certain commands. After making changes, the user
-places the new version in the repository. At the same time, previous versions are not deleted
-from the central repository and you can return to them at any time. The server can
-not to save the full version of the modified files, but to perform a so—called delta compression - to save only changes between successive versions, which
-reduces the amount of data stored.
-Version control systems support the ability to track and resolve
-conflicts that may arise when several people work on a single
-file. You can merge (merge) changes made by different participants (automatically or manually), manually select the desired version, cancel the changes altogether
-or lock files for modification. Depending on the settings, the lock is not
-allows other users to get a working copy or prevents changing
-the working copy of the file by means of the OS file system, thus providing
-privileged access to only one user working with the file.
-Version control systems can also provide additional, more flexible
-functionality. For example, they can support working with multiple versions of a single file, keeping a common history of changes up to the point of branching
-versions and their own change histories of each branch. In addition, it is usually available
-information about which of the participants, when and what changes were made. Usually this
-kind of information is stored in the change log, access to which can be restricted.
-Unlike the classical ones, in distributed version control systems, a central
-repository is not mandatory.
-Among the classic VCS, the most famous are CVS, Subversion, and among the distributed ones — Git, Bazaar, Mercurial. The principles of their work are similar, they differ mainly
-in the syntax of the commands used in the work.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;управление-версиями&#34;&gt;Управление версиями&lt;/h2&gt;
+&lt;p&gt;Системы контроля версий (VCS) используются, когда над одним проектом работают несколько человек. Обычно основное дерево проекта хранится в локальном или удаленном репозитории, доступ к которому настроен для участников проекта. При внесении изменений в содержимое проекта система контроля версий позволяет исправлять их, объединять изменения, внесенные разными участниками проекта, при необходимости выполнять откат к любой более ранней версии проекта.
+В классических системах контроля версий используется централизованная модель,
+предполагая наличие единого хранилища для хранения файлов. Большинство функций контроля версий выполняются специальным сервером.&lt;/p&gt;
+&lt;p&gt;Участник проекта (пользователь)
+получает нужную ему версию файлов перед началом работы с помощью определенных команд. После внесения изменений пользователь
+помещает новую версию в репозиторий. В то же время предыдущие версии не удаляются
+из центрального хранилища, и вы можете вернуться к ним в любое время. Сервер может
+не сохранять полную версию измененных файлов, а выполнять так называемое дельта—сжатие - сохранять только изменения между последовательными версиями, которые
+уменьшает объем хранимых данных.&lt;/p&gt;
+&lt;p&gt;Системы контроля версий поддерживают возможность отслеживания и разрешения
+конфликтов, которые могут возникнуть, когда несколько человек работают над одним
+файлом. Вы можете объединить (объединить) изменения, внесенные разными участниками (автоматически или вручную), вручную выбрать нужную версию, полностью отменить изменения
+или заблокировать файлы для изменения. В зависимости от настроек, блокировка не
+позволяет другим пользователям получить рабочую копию или запрещает изменять
+рабочую копию файла с помощью файловой системы ОС, предоставляя таким образом
+привилегированный доступ только одному пользователю, работающему с файлом.
+Системы контроля версий также могут предоставлять дополнительные, более гибкие
+функциональные возможности. Например, они могут поддерживать работу с несколькими версиями одного файла, сохраняя общую историю изменений вплоть до разветвления
+версий и свои собственные истории изменений каждой ветви. Кроме того, обычно доступна
+информация о том, кто из участников, когда и какие изменения были внесены. Обычно такого
+рода информация хранится в журнале изменений, доступ к которому может быть ограничен.
+В отличие от классических, в распределенных системах управления версиями центральное
+хранилище не является обязательным.
+Среди классических венчурных капиталистов наиболее известными являются CVS, Subversion, а среди распределенных — Git, Bazaar, Mercurial. Принципы их работы схожи, отличаются они
+в основном синтаксисом команд, используемых в работе.&lt;/p&gt;
 </description>
     </item>
     

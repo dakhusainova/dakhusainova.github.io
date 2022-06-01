@@ -64,7 +64,7 @@
   
     
   
-  <meta name="description" content="Here I will tell you about version control." />
+  <meta name="description" content="В этом посте я расскажу немного об управлении версиями." />
 
   
     <link rel="alternate" hreflang="en" href="https://dakhusainova.github.io/post/version-control/" />
@@ -310,8 +310,8 @@
   
   <meta property="og:site_name" content="Хусаинова Д. А." />
   <meta property="og:url" content="https://dakhusainova.github.io/ru/post/version-control/" />
-  <meta property="og:title" content="Version control | Хусаинова Д. А." />
-  <meta property="og:description" content="Here I will tell you about version control." /><meta property="og:image" content="https://dakhusainova.github.io/ru/post/version-control/featured.jpg" />
+  <meta property="og:title" content="Управление версиями | Хусаинова Д. А." />
+  <meta property="og:description" content="В этом посте я расскажу немного об управлении версиями." /><meta property="og:image" content="https://dakhusainova.github.io/ru/post/version-control/featured.jpg" />
     <meta property="twitter:image" content="https://dakhusainova.github.io/ru/post/version-control/featured.jpg" /><meta property="og:locale" content="ru-ru" />
   
     
@@ -346,7 +346,7 @@
     "@type": "WebPage",
     "@id": "https://dakhusainova.github.io/ru/post/version-control/"
   },
-  "headline": "Version control",
+  "headline": "Управление версиями",
   
   "image": [
     "https://dakhusainova.github.io/ru/post/version-control/featured.jpg"
@@ -368,7 +368,7 @@
       "url": "https://dakhusainova.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Here I will tell you about version control."
+  "description": "В этом посте я расскажу немного об управлении версиями."
 }
 </script>
 
@@ -384,7 +384,7 @@
 
 
 
-  <title>Version control | Хусаинова Д. А.</title>
+  <title>Управление версиями | Хусаинова Д. А.</title>
 </head>
 
 
@@ -776,10 +776,10 @@
 
 
 <div class="article-container pt-3">
-  <h1>Version control</h1>
+  <h1>Управление версиями</h1>
 
   
-  <p class="page-subtitle">About version control</p>
+  <p class="page-subtitle">Об управлении версиями</p>
   
 
   
@@ -854,36 +854,32 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h2 id="overview">Overview</h2>
-<p>Version Control Systems (VCS) are used when several people work on one project. Usually, the main project tree is stored in a local
-or remote repository, to which access is configured for project participants. When
-making changes to the project content, the version control system allows
-you to fix them, combine changes made by different project participants,
-roll back to any earlier version of the project, if required.
-In classical version control systems, a centralized model is used,
-assuming a single repository for storing files. Most version control functions are performed by a special server.
-The project participant (user)
-receives the version of files he needs before starting work through certain commands. After making changes, the user
-places the new version in the repository. At the same time, previous versions are not deleted
-from the central repository and you can return to them at any time. The server can
-not to save the full version of the modified files, but to perform a so—called delta compression - to save only changes between successive versions, which
-reduces the amount of data stored.
-Version control systems support the ability to track and resolve
-conflicts that may arise when several people work on a single
-file. You can merge (merge) changes made by different participants (automatically or manually), manually select the desired version, cancel the changes altogether
-or lock files for modification. Depending on the settings, the lock is not
-allows other users to get a working copy or prevents changing
-the working copy of the file by means of the OS file system, thus providing
-privileged access to only one user working with the file.
-Version control systems can also provide additional, more flexible
-functionality. For example, they can support working with multiple versions of a single file, keeping a common history of changes up to the point of branching
-versions and their own change histories of each branch. In addition, it is usually available
-information about which of the participants, when and what changes were made. Usually this
-kind of information is stored in the change log, access to which can be restricted.
-Unlike the classical ones, in distributed version control systems, a central
-repository is not mandatory.
-Among the classic VCS, the most famous are CVS, Subversion, and among the distributed ones — Git, Bazaar, Mercurial. The principles of their work are similar, they differ mainly
-in the syntax of the commands used in the work.</p>
+      <h2 id="управление-версиями">Управление версиями</h2>
+<p>Системы контроля версий (VCS) используются, когда над одним проектом работают несколько человек. Обычно основное дерево проекта хранится в локальном или удаленном репозитории, доступ к которому настроен для участников проекта. При внесении изменений в содержимое проекта система контроля версий позволяет исправлять их, объединять изменения, внесенные разными участниками проекта, при необходимости выполнять откат к любой более ранней версии проекта.
+В классических системах контроля версий используется централизованная модель,
+предполагая наличие единого хранилища для хранения файлов. Большинство функций контроля версий выполняются специальным сервером.</p>
+<p>Участник проекта (пользователь)
+получает нужную ему версию файлов перед началом работы с помощью определенных команд. После внесения изменений пользователь
+помещает новую версию в репозиторий. В то же время предыдущие версии не удаляются
+из центрального хранилища, и вы можете вернуться к ним в любое время. Сервер может
+не сохранять полную версию измененных файлов, а выполнять так называемое дельта—сжатие - сохранять только изменения между последовательными версиями, которые
+уменьшает объем хранимых данных.</p>
+<p>Системы контроля версий поддерживают возможность отслеживания и разрешения
+конфликтов, которые могут возникнуть, когда несколько человек работают над одним
+файлом. Вы можете объединить (объединить) изменения, внесенные разными участниками (автоматически или вручную), вручную выбрать нужную версию, полностью отменить изменения
+или заблокировать файлы для изменения. В зависимости от настроек, блокировка не
+позволяет другим пользователям получить рабочую копию или запрещает изменять
+рабочую копию файла с помощью файловой системы ОС, предоставляя таким образом
+привилегированный доступ только одному пользователю, работающему с файлом.
+Системы контроля версий также могут предоставлять дополнительные, более гибкие
+функциональные возможности. Например, они могут поддерживать работу с несколькими версиями одного файла, сохраняя общую историю изменений вплоть до разветвления
+версий и свои собственные истории изменений каждой ветви. Кроме того, обычно доступна
+информация о том, кто из участников, когда и какие изменения были внесены. Обычно такого
+рода информация хранится в журнале изменений, доступ к которому может быть ограничен.
+В отличие от классических, в распределенных системах управления версиями центральное
+хранилище не является обязательным.
+Среди классических венчурных капиталистов наиболее известными являются CVS, Subversion, а среди распределенных — Git, Bazaar, Mercurial. Принципы их работы схожи, отличаются они
+в основном синтаксисом команд, используемых в работе.</p>
 
     </div>
 
@@ -911,7 +907,7 @@ in the syntax of the commands used in the work.</p>
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://dakhusainova.github.io/ru/post/version-control/&amp;text=Version%20control" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://dakhusainova.github.io/ru/post/version-control/&amp;text=%d0%a3%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5%20%d0%b2%d0%b5%d1%80%d1%81%d0%b8%d1%8f%d0%bc%d0%b8" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -924,7 +920,7 @@ in the syntax of the commands used in the work.</p>
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://dakhusainova.github.io/ru/post/version-control/&amp;t=Version%20control" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://dakhusainova.github.io/ru/post/version-control/&amp;t=%d0%a3%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5%20%d0%b2%d0%b5%d1%80%d1%81%d0%b8%d1%8f%d0%bc%d0%b8" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -937,7 +933,7 @@ in the syntax of the commands used in the work.</p>
       
       
       <li>
-        <a href="mailto:?subject=Version%20control&amp;body=https://dakhusainova.github.io/ru/post/version-control/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=%d0%a3%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5%20%d0%b2%d0%b5%d1%80%d1%81%d0%b8%d1%8f%d0%bc%d0%b8&amp;body=https://dakhusainova.github.io/ru/post/version-control/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -950,7 +946,7 @@ in the syntax of the commands used in the work.</p>
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://dakhusainova.github.io/ru/post/version-control/&amp;title=Version%20control" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://dakhusainova.github.io/ru/post/version-control/&amp;title=%d0%a3%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5%20%d0%b2%d0%b5%d1%80%d1%81%d0%b8%d1%8f%d0%bc%d0%b8" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -963,7 +959,7 @@ in the syntax of the commands used in the work.</p>
       
       
       <li>
-        <a href="whatsapp://send?text=Version%20control%20https://dakhusainova.github.io/ru/post/version-control/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=%d0%a3%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5%20%d0%b2%d0%b5%d1%80%d1%81%d0%b8%d1%8f%d0%bc%d0%b8%20https://dakhusainova.github.io/ru/post/version-control/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -976,7 +972,7 @@ in the syntax of the commands used in the work.</p>
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://dakhusainova.github.io/ru/post/version-control/&amp;title=Version%20control" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://dakhusainova.github.io/ru/post/version-control/&amp;title=%d0%a3%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5%20%d0%b2%d0%b5%d1%80%d1%81%d0%b8%d1%8f%d0%bc%d0%b8" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
